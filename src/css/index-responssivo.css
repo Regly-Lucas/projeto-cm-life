@@ -1,0 +1,34 @@
+@media (max-width: 1050px) {
+    .galeria-de-fotos{
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    .sobre-container {
+        justify-content: center;
+    }
+
+    .sobre-container img {
+        display: none;
+    }
+}
+
+@media (max-width: 490px) {
+    .topo-links {
+        border-top: 1px solid #ccc;
+        margin-bottom: 20px;
+    }
+
+    header .container nav{
+        border-top: 1px solid #ccc;
+        width: 90%;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    header .container {
+        flex-direction: column;
+    }
+    
+}

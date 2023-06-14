@@ -1,0 +1,173 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: #00CAD1;
+}
+
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div a img,
+.rodape-logo{
+    width: 150px;
+}
+
+.topo-links {
+    display: flex;
+    gap: 16px;
+}
+
+.topo-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.topo-links a:hover {
+    color: #010101;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('../img/recepcao.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.banner div {
+    color: #ffffff;
+    font-size: 24px;
+    width: 1024px;
+}
+
+h1 {
+    font-weight: normal;
+    color: #ffffff
+}
+
+.sobre .container {
+    text-align: center;
+}
+
+.sobre .container .titulo-e-paragrafo,
+.galeria .titulo-e-paragrafo{
+    max-width: 600px;
+    text-align: center;
+    height: 80px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sobre-container {
+    height: 250px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.sobre-container img {
+    width: 30%;
+}
+
+.sobre-lista {
+    width: 70%;
+    height: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+.sobre-lista h3{
+    margin-bottom: 20px;
+}
+
+.sobre-lista ul li {
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.sobre-lista h3 {
+    font-weight: normal;
+}
+.galeria .titulo-e-paragrafo h3 {
+    font-size: 17px;
+}
+.galeria-de-fotos{
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    }
+.galeria-de-fotos figure{
+    width:400px;
+    box-shadow: 0 0 8px  black;
+}
+.galeria-de-fotos figure img{
+    width: 100%;
+}
+.galeria-de-fotos figcaption{
+    text-align: center;
+}
+.horarios{
+    text-align: center;
+    margin: 80px auto;
+}
+.horarios a{
+    text-decoration: none;
+    background-color: #00CAD1;
+    padding: 15px;
+    color:#ffffff
+}
+.contatos form{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contatos form h3{
+    margin: 10px 0;
+}
+.contatos form p{
+    line-height: 35px;
+}
+.contatos span{
+    color:#010101;
+    font-weight: bold;
+}
+.iframe{
+    max-width: 1024px;
+    margin: 40px auto;
+}
+.iframe iframe{
+    width: 100%;
+}
+.rodape-logo img{
+    width: 100%;
+}
+.rodape{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0C6E71;
+}
+.rodape form p{
+    text-align: center;
+    color:#ffffff;
+    line-height:30px ;
+}

@@ -1,0 +1,70 @@
+.servicos-container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.servicos-container a {
+    border-bottom: 3px solid #59A5A5;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.especialidades .container {
+    max-width: 800px;
+    text-align: center;
+    font-size: 25px;
+    margin: 50px auto;
+}
+
+.titulo-e-paragrafo {
+    max-width: 700px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 130px;
+}
+
+.titulo-e-paragrafo p {
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.imagem-e-tabela {
+    max-width: 1024px;
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.imagem-e-tabela img {
+    width: 30%;
+}
+
+.imagem-e-tabela table {
+    width: 70%;
+    height: 207px;
+    border-spacing: 0;
+}
+
+th {
+    background-color: #00CAD1;
+    color: #fff;
+    padding: 10px 0;
+}
+
+td {
+    text-align: center;
+    padding: 15px 0;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #CDCDCD;
+}
+
+tr:nth-of-type(even) {
+    background-color: #f1f1f1;
+}
