@@ -5,4 +5,5 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
     color: #696868;
+    scroll-behavior: smooth;
 }

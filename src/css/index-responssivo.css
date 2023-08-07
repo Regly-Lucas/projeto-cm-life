@@ -1,8 +1,9 @@
 @media (max-width: 1050px) {
-    .galeria-de-fotos{
+    .galeria-de-fotos {
         flex-wrap: wrap;
         justify-content: center;
-    } 
+    }
+
     .sobre-container {
         justify-content: center;
     }
@@ -18,7 +19,7 @@
         margin-bottom: 20px;
     }
 
-    header .container nav{
+    header .container nav {
         border-top: 1px solid #ccc;
         width: 90%;
         justify-content: space-around;
@@ -30,5 +31,25 @@
     header .container {
         flex-direction: column;
     }
-    
+
+    .galeria {
+        margin: 90px 0;
+    }
+
+    .rodape {
+        padding: 150px 0;
+    }
+
+    .rodape p {
+        margin-bottom: 15px;
+    }
+
+    .sobre-lista {
+        margin-top: 800px 0;
+    }
+
+    .contatos .container p {
+        margin-bottom: 40px;
+    }
 }
+
